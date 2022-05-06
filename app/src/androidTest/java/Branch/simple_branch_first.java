@@ -3,6 +3,7 @@ package Branch;
 public class simple_branch_first {
     String name, id;
     float cgpa;
+
     int age;
 
     public int getAge() {
@@ -18,6 +19,7 @@ public class simple_branch_first {
         this.id = id;
         this.cgpa = cgpa;
         this.age = age;
+
     }
 
     public String getName() {
