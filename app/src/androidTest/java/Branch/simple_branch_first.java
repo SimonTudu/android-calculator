@@ -3,21 +3,23 @@ package Branch;
 public class simple_branch_first {
     String name, id;
     float cgpa;
-    double height;
 
-    public simple_branch_first(String name, String id, float cgpa, double height) {
+    int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public simple_branch_first(String name, String id, float cgpa, int age) {
         this.name = name;
         this.id = id;
         this.cgpa = cgpa;
-        this.height = height;
-    }
+        this.age = age;
 
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
     }
 
     public String getName() {
